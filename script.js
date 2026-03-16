@@ -1,6 +1,6 @@
 let player1, player2;
 let currentPlayer;
-let symbol = "X";
+let symbol = "x";
 let gameActive = false;
 
 const submit = document.getElementById("submit");
@@ -32,7 +32,7 @@ e.target.textContent = symbol;
 
 checkWinner();
 
-symbol = symbol === "X" ? "O" : "X";
+symbol = symbol === "x" ? "o" : "x";
 currentPlayer = currentPlayer === player1 ? player2 : player1;
 
 if(gameActive){
