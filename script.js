@@ -66,7 +66,7 @@ gameActive = false;
 
 let winner = symbol === "X" ? player1 : player2;
 
-message.textContent = `${winner} congratulations you won!`;
+message.textContent = `${winner}congratulations you won!`;
 }
 
 }
