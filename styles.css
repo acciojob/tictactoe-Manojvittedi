@@ -1,10 +1,5 @@
-/*  your css code here. If applicable */
-body{
-font-family:Arial;
-text-align:center;
-}
-
 .container{
+text-align:center;
 margin-top:40px;
 }
 
@@ -24,7 +19,6 @@ cursor:pointer;
 }
 
 .message{
-margin-top:15px;
 font-size:20px;
-font-weight:bold;
+margin-top:10px;
 }
